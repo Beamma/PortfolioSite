@@ -2,6 +2,7 @@ import React from "react";
 import {Container, Typography} from '@mui/material';
 import NavBar from "./NavBar.tsx";
 import About from "./About.tsx";
+import Experiance from "./Experiance.tsx"
 
 const backgroundStyle = {
     height: '100vh',
@@ -52,6 +53,7 @@ const Home = () => {
                 </Typography> */}
             </Container>
             <About />
+            <Experiance />
         </div>
     )
 }
