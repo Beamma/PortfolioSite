@@ -4,11 +4,8 @@ import NavBar from "./NavBar.tsx";
 import About from "./About.tsx";
 
 const backgroundStyle = {
-    // backgroundSize: 'cover',
-    // backgroundPosition: 'center',
     height: '100vh',
-    color: 'yellow', // Adjust text color for better visibility
-    // backgorund-color: 'white',
+    color: 'yellow',
     background: 'white',
     backgroundImage: `
       linear-gradient(grey 1px, transparent 1px),
