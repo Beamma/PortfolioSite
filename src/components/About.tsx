@@ -3,7 +3,7 @@ import React from "react";
 
 const aboutStyle: React.CSSProperties = {
     height: '50vh',
-    color: 'white', // Adjust text color for better visibility
+    color: 'white',
     backgroundColor: 'black',
     margin: '0px',
     padding: '50px',
