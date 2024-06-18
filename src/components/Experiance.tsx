@@ -4,7 +4,6 @@ import React from "react";
 
 const experienceStyle: SxProps<Theme> = {
     position: 'relative',
-    padding: '50px',
     '&::before, &::after': {
         content: '""',
         position: 'absolute',
@@ -37,7 +36,7 @@ const experianceStyleOutter: React.CSSProperties = {
 
 const Experiance = () => {
     return (
-        <div id="experiance" style={experianceStyleOutter}>
+        <div id="experience" style={experianceStyleOutter}>
             <Box sx={experienceStyle}>
                 <Typography variant="h3" sx={{
                     fontFamily: 'monospace',
