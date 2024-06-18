@@ -6,7 +6,8 @@ const skillStyle: React.CSSProperties = {
     color: 'white',
     backgroundColor: 'black',
     margin: '0px',
-    padding: '50px'
+    padding: '50px',
+    paddingBottom: 0
 };
 
 const Skills = () => {

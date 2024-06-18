@@ -6,6 +6,7 @@ import Experiance from "./Experiance.tsx"
 import Projects from "./Projects.tsx"
 import Education from "./Education.tsx"
 import Skills from "./Skills.tsx";
+import Footer from "./Footer.tsx";
 
 const backgroundStyle = {
     height: '100vh',
@@ -59,6 +60,7 @@ const Home = () => {
             <Projects />
             <Education />
             <Skills />
+            <Footer />
         </div>
     )
 }
