@@ -4,10 +4,11 @@ import NavBar from "./NavBar.tsx";
 import About from "./About.tsx";
 import Experiance from "./Experiance.tsx"
 import Projects from "./Projects.tsx"
+import Education from "./Education.tsx"
 
 const backgroundStyle = {
     height: '100vh',
-    color: 'yellow',
+    color: '#febf18',
     background: 'white',
     backgroundImage: `
       linear-gradient(grey 1px, transparent 1px),
@@ -55,6 +56,7 @@ const Home = () => {
             <About />
             <Experiance />
             <Projects />
+            <Education />
         </div>
     )
 }

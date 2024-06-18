@@ -80,8 +80,8 @@ const Carousel = () => {
         ))}
       </AutoPlaySwipeableViews>
       <MobileStepper
-        sx={{background: 'black', color: 'yellow'}}
-        color='yellow'
+        sx={{background: 'black', color: '#febf18'}}
+        color='#febf18'
         variant='text'
         steps={maxSteps}
         position='static'
@@ -91,7 +91,7 @@ const Carousel = () => {
             size='small'
             onClick={handleNext}
             disabled={activeStep === maxSteps - 1}
-            sx={{color: 'yellow'}}
+            sx={{color: '#febf18'}}
           >
             Next
             <KeyboardArrowRight />
@@ -102,7 +102,7 @@ const Carousel = () => {
             size='small'
             onClick={handleBack}
             disabled={activeStep === 0}
-            sx={{color: 'yellow'}}
+            sx={{color: '#febf18'}}
           >
             <KeyboardArrowLeft />
             Back
