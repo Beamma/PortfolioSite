@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
-import { Box, MobileStepper, Paper, Typography, Button } from '@mui/material';
+import { Box, MobileStepper, Button } from '@mui/material';
 import { KeyboardArrowLeft, KeyboardArrowRight } from '@mui/icons-material';
 import Project from './Project.tsx';
 import GardenersImage from './gardeners_grove.jpg';
