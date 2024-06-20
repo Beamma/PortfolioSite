@@ -30,23 +30,23 @@ const Skills = () => {
                         fontWeight: 700,
                         textAlign: 'left'
                     }}>
-                        Over the years of my education and proffesional expience, I have gained a large variety of skills. The skills you see
-                        inside the bubbles are the most important of which. The size does not represent, my efficiany in the matter, but rather
+                        Over the years of my education and professional experience, I have gained a large variety of skills. The skills you see
+                        inside the bubbles are the most important of which. The size does not represent, my efficiency in the matter, but rather
                         a combination of the importance to me and how much I use the given skill.
                         <br></br>
                         <br></br>
-                        When it comes to languages, I'm most comfortbale in Python, having had many years experience. Java, TypeScript, and JavaScript come next;
-                        having been my main languages over the past year. I also have years of experience in HTML/CSS and SQL. I have industry experience, with
-                        working in C++, having done my summer internship project in this language. Lastly is C, where I have prior experiance stemming from on
+                        When it comes to languages, I'm most comfortable in Python, having had many years experience. Java, TypeScript, and JavaScript come next;
+                        have been my main languages over the past year. I also have years of experience in HTML/CSS and SQL. I have industry experience, with
+                        working in C++, having done my summer internship project in this language. Lastly is C, where I have prior experience stemming from on
                         of my second year university courses.
                         <br></br>
                         <br></br>
-                        Youll notice a variety of web development frameworks scattered throughout the graph. I have used all these frameworks in a variety of situations,
+                        You'll notice a variety of web development frameworks scattered throughout the graph. I have used all these frameworks in a variety of situations,
                         from university projects to personal projects. Recently, I have been doing a lot of web development, and thus have gained a lot of experience in these 
                         frameworks recently.
                         <br></br>
                         <br></br>
-                        Lastly there are some miscellenious skills up there. AI, is a rather general statement here, I have experience in developing Big Data projects, machine learning
+                        Lastly there are some miscellaneous skills up there. AI, is a rather general statement here, I have experience in developing Big Data projects, machine learning
                         and neural networks. In my internship I worked on a linux embedded system, and although at the time this was new to me, over that summer I gained a 
                         strong understanding of how these systems work. Git has been used all throughout my software experiences, and I am very confident in this skill. Finally 
                         I have a strong understanding of software engineering methodologies, mainly scrum. Having completed a full year project using the scrum methodology, I feel

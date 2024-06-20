@@ -124,7 +124,7 @@ const Experiance = () => {
                             on occasion I am entrusted with the running and supervision of the 
                             night shift. Throughout my tenure at Americold, I have accomplished 
                             great success. Most notably, 2022 Employee of the year, and 2022 
-                            Global Action award
+                            Global Action award.
                         </Typography>
                     </Grid>
                     <Grid item xs={0} sm={0} md={0} lg={4}>
