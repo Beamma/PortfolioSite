@@ -18,6 +18,7 @@ const backgroundStyle = {
     `,
     margin: '0px',
     backgroundSize: '40px 40px',
+    width: "100%"
 };
 
 
@@ -39,21 +40,9 @@ const Home = () => {
                     color: 'inherit',
                     textDecoration: 'none',
                     textShadow: '8px 8px 2px black, 4px 4px 2px black, 12px 12px 2px black',
-                    width: '100%'
                 }} gutterBottom>
                     Joel Bremner
                 </Typography>       
-                {/* <Typography variant="h4" component="h3" sx={{ 
-                    fontFamily: 'monospace',
-                    fontWeight: 700,
-                    letterSpacing: '.3rem',
-                    color: 'inherit',
-                    textDecoration: 'none',
-                    textShadow: '4px 4px 2px black',
-                    width: '100%'
-                    }} gutterBottom>
-                    Graduate Computer Scientist
-                </Typography> */}
             </Container>
             <About />
             <Experiance />

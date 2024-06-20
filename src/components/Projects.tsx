@@ -10,6 +10,7 @@ const projectStyle: React.CSSProperties = {
 };
 
 const Projects = () => {
+
     return (
         <div id="projects" style={projectStyle}>
             <Typography variant="h3" sx={{
@@ -31,7 +32,7 @@ const Projects = () => {
                         color: "black",
                         borderRadius: "5px",
                         padding: '20px',
-                        minHeight: 460
+                        minHeight: 635
                     }}>
                         Over the years, I have dedicated my spare time to working on a variety of software development projects that span 
                         across different domains and technologies. These projects have provided me with valuable hands-on experience and have 

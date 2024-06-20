@@ -45,7 +45,7 @@ const Education = () => {
                             towards a BSc majoring in Computer Science. I will be completing my 
                             degree at the end of 2024. I have gained vast amounts of knowledge
                             and experience, that will help to contribute meaningfully in a
-                            proffesional environment.
+                            professional environment.
                         </Typography>
                     </ Grid>
                     <Grid item xs={12} sm={12} md={12} lg={6}>
@@ -69,8 +69,8 @@ const Education = () => {
                         }}>
                             <b>NCEA | 2017-2021</b><br></br>
                             I attended Burnside High School from 2017 - 2021. This is where my love for software development began.
-                            I gained many valuable skills through out my time here. My most notable achievements throughout my time at Burnside 
-                            inlclude but is not limited to Excellence endorsement accross all 3 levels of NCEA. 
+                            I gained many valuable skills throughout my time here. My most notable achievements throughout my time at Burnside 
+                            include but is not limited to Excellence endorsement across all 3 levels of NCEA.  
                         </Typography>
                     </ Grid>
                 </Grid>

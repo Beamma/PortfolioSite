@@ -29,17 +29,17 @@ const About = () => {
                         fontWeight: 700,
                         marginBottom: "20px"
                     }}>
-                        Hi i'm Joel, a keen software devloper currently studying at the University of Canterbury. I plan to graduate at the end of this year (2024) with a
+                        Hi I'm Joel, a keen software developer currently studying at the University of Canterbury. I plan to graduate at the end of this year (2024) with a
                         Bachelor of Science, majoring in Computer Science. Although I haven't ruled out the option of enrolling in a Master of Artificial Intelligence for next year.
                         I have an extremely strong passion towards software development and technology. Throughout highschool, university, internships,
                         and personal projects I have gained a strong and thorough understanding of software development, and software engineering methodologies.
-                        I hope to apply these skills in a proffesional environment, that fosters innovation and personal development. Although I currently reside in Christchurch
-                        New Zealand, I am open to relocated for the right position.
+                        I hope to apply these skills in a professional environment that fosters innovation and personal development. Although I currently reside in Christchurch
+                        New Zealand, I am open to relocating for the right position.
                     <br></br>
                     <br></br>
-                        Outside of academic interests, I have many other hobbies. Some of these hobbies include; rugby, where I am a passionate and commited member of my local rugby
-                        club. Aside from playing in the clubs top grade team, I also volunteer my time in varying roles towards the clubs greater interests. I am also an avid skiier;
-                        having held a seasons pass to Mt Hutt for the past 7 years. Come summer I'm a hobbiest golfer, as a member at Mcleans Island golf club. The last of my hobbies
+                        Outside of academic interests, I have many other hobbies. Some of these hobbies include; rugby, where I am a passionate and committed member of my local rugby
+                        club. Aside from playing in the clubs top grade team, I also volunteer my time in varying roles towards the clubs greater interests. I am also an avid skier;
+                        having held a season pass to Mt Hutt for the past 7 years. Come summer I'm a hobbyist golfer, as a member at Mcleans Island golf club. The last of my hobbies
                         include touch rugby, mountain biking, camping, tramping and anything outdoors.
                     </Typography>
                 </Grid>

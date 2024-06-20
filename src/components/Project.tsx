@@ -1,6 +1,7 @@
-import { Box, Card, CardActionArea, CardContent, CardMedia, Typography } from "@mui/material";
+import { Box, Card, CardActionArea, CardContent, CardMedia, Typography, useTheme } from "@mui/material";
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { useMediaQuery } from '@mui/material';
 
 
 interface ProjectCardProps {
@@ -13,6 +14,11 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({name, link, description, image}) => {
     const navigate = useNavigate();
+    const theme = useTheme();
+    const isSmallScreen = useMediaQuery(theme.breakpoints.down('sm'));
+    const isMediumScreen = useMediaQuery(theme.breakpoints.down('md'));
+
+    const height = isSmallScreen ? 600 : isMediumScreen ? 400 : 375;
 
     const linkToPetition = () => {
         navigate(`${link}`)
@@ -33,12 +39,18 @@ const ProjectCard: React.FC<ProjectCardProps> = ({name, link, description, image
                         )}
                         <CardContent sx={{ paddingBottom: '0 !important' }}>
                             <Typography variant="h5" component="div" sx={{
-                            fontFamily: 'monospace',
-                            fontWeight: 700,
-                        }}>
+                                fontFamily: 'monospace',
+                                fontWeight: 700,
+                            }}>
                                 {name}
                             </Typography>
-                            <Typography variant="body1" component="div">
+                            <Typography variant="body1" sx={{
+                                fontFamily: 'monospace',
+                                fontWeight: 500,
+                                background: 'white',
+                                color: "black",
+                                height: height
+                            }}>
                                 {description}
                             </Typography>
                         </CardContent>
