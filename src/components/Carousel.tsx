@@ -15,25 +15,25 @@ const projectSteps = [
   {
     name: 'Gardeners Grove',
     image: GardenersImage,
-    link: 'Link',
+    link: 'gardeners-grove',
     description: 'Gardeners grove is a university project currently under development. This app has been developed by myself and a team of 7 other individuals as a university project for one of my courses. The project uses sprint-boot, thymeleaf, bootstrap and MariaDB. The app allows for users to create accounts, and then create gardens containing plant information, as well as add friends and browse others\' gardens; among a plethora of features. There isn\'t any particular part of the app that I worked on, as well follow the scrum methodology allowing for us developers to work on features across the entirety of the code base.'
   },
   {
     name: 'Catalyst Petitions',
     image: CatalystImage,
-    link: 'Link',
+    link: 'catalyst',
     description: 'Catalyst Petitions is a full stack site I developed on my own. It makes good use of JavaScript frameworks; using ExpressJs hooked up to MariaDB for the backend API, and ReactJS with MUI components on the frontend. The API itself is RESTful. TypeScript was used instead of JavaScript This project taught me a bunch about JavaScript frameworks, as well as general web development. The app allows for users to create accounts, view and support petitions, as well as create and edit their own petitions. This was my first real crack at web development, so I have had a lot of takeaways from this project and I learnt a lot.'
   },
   {
     name: 'Beer Predictor',
     image: BeerPredictor,
-    link: 'Link',
+    link: 'beer-predictor',
     description: 'My Beer prediction app is a simple UI for a more complex big data problem. This project is mainly focused around the parallel computing required to build the model. I used to dask, to allow me to distribute the workload across multiple cores. This allows me to be able to handle the 4 million record dataset that this model is populated with in order to ensure an accurate prediction of beer preference for a user. The algorithm itself, consists of curating a utility matrix, and using collaborative filtering with  weighted similarity ratings in order to supply a beer prediction based off of a query set of beer reviews. I enjoyed this project a lot, and look to further work on more AI/big data problems in the near future. I created a simple server, and front end using JavaScript Frameworks.'
   },
   {
     name: 'Club Hub',
     image: ClubHub,
-    link: 'Link',
+    link: 'club-hub',
     description: 'This is my main personal project. It started off as an advanced rugby stats recorder used by my club. The app allows for game footage to be uploaded, then using specific commands, users/team analysts are able to quickly record customized match stats which are mapped to the time they occurred in the footage. This allows for players to see a breakdown of all their stats, with the footage attached. The users are also able to do advanced queries, on all this data, allowing them to curate a stats summary that is meaningful to them. The project is built using ReactJS and ExpressJS. I have a lot of future plans for this project.'
   },
   {
