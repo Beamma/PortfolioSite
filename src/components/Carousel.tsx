@@ -15,7 +15,7 @@ const projectSteps = [
   {
     name: 'Gardeners Grove',
     image: GardenersImage,
-    link: 'gardeners-grove',
+    link: 'https://csse-seng302-team900.canterbury.ac.nz/prod/user/home',
     description: 'Gardeners grove is a university project currently under development. This app has been developed by myself and a team of 7 other individuals as a university project for one of my courses. The project uses sprint-boot, thymeleaf, bootstrap and MariaDB. The app allows for users to create accounts, and then create gardens containing plant information, as well as add friends and browse others\' gardens; among a plethora of features. There isn\'t any particular part of the app that I worked on, as well follow the scrum methodology allowing for us developers to work on features across the entirety of the code base.'
   },
   {

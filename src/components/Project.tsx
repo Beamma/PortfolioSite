@@ -21,7 +21,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({name, link, description, image
     const height = isSmallScreen ? 600 : isMediumScreen ? 400 : 375;
 
     const linkToPetition = () => {
-        navigate(`${link}`)
+        if (name === "Gardeners Grove") {
+            window.location.href = link;
+        } else {
+            navigate(`${link}`)
+        }
     }
 
     return (
